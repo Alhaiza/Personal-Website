@@ -1,6 +1,17 @@
 /* import font */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
 
+/* css variables begin */
+:root {
+  --primary-color: #9dbc98;
+  --dark-color: #0c2d57;
+
+  --h1-font-size: 40px;
+  --h2-font-size: 32px;
+  --small-font-size: 14px;
+}
+/* css variables end */
+
 /* reset css begin */
 * {
   padding: 0;
@@ -16,7 +27,6 @@ img {
 a {
   text-decoration: none;
 }
-
 /* reset css end */
 
 /* global css start */
