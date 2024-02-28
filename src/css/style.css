@@ -3,7 +3,7 @@
 
 /* css variables begin */
 :root {
-  --primary-color: #9dbc98;
+  --primary-color: #ff4301;
   --dark-color: #0c2d57;
 
   --h1-font-size: 40px;
@@ -32,5 +32,23 @@ a {
 /* global css start */
 section {
   padding: 70px 0;
+}
+
+section .section-title {
+  color: var(--primary-color);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.text-orange {
+  color: var(--primary-color);
+}
+
+.text-orange:hover {
+  color: var(--primary-color);
+}
+
+.text-orange:focus {
+  color: var(--primary-color);
 }
 /* global css end */
