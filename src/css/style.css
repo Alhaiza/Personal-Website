@@ -33,7 +33,7 @@ a {
 
 /* global css start */
 section {
-  padding: 70px 0;
+  padding: 100px 0;
 }
 
 section .section-title {
@@ -48,6 +48,10 @@ section .section-title {
 
 .bg-tosca {
   background-color: var(--primary-color);
+}
+
+.bg-dark-tosca {
+  background-color: var(--secondary-color);
 }
 
 .text-tosca {
@@ -73,11 +77,19 @@ a .text-tosca:focus {
 .text-dark-tosca:focus {
   color: var(--secondary-color);
 }
+
+.colon-equal {
+  display: table-cell;
+  padding-right: 1rem;
+}
 /* global css end */
 
 /* header section css begin */
-
 /* header section css end */
+
+/* about section css begin */
+
+/* about section css end */
 
 /* responsive css begin */
 
