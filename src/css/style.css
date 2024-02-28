@@ -3,7 +3,8 @@
 
 /* css variables begin */
 :root {
-  --primary-color: #ff4301;
+  --primary-color: #9ad0c2;
+  --secondary-color: #638889;
   --dark-color: #0c2d57;
 
   --h1-font-size: 40px;
@@ -27,6 +28,7 @@ img {
 a {
   text-decoration: none;
 }
+
 /* reset css end */
 
 /* global css start */
@@ -40,15 +42,43 @@ section .section-title {
   text-transform: uppercase;
 }
 
-.text-orange {
+.bg-gray {
+  background-color: var(--gray-color);
+}
+
+.bg-tosca {
+  background-color: var(--primary-color);
+}
+
+.text-tosca {
   color: var(--primary-color);
 }
 
-.text-orange:hover {
+a .text-tosca:hover {
   color: var(--primary-color);
 }
 
-.text-orange:focus {
+a .text-tosca:focus {
   color: var(--primary-color);
+}
+
+.text-dark-tosca {
+  color: var(--secondary-color);
+}
+
+.text-dark-tosca:hover {
+  color: var(--secondary-color);
+}
+
+.text-dark-tosca:focus {
+  color: var(--secondary-color);
 }
 /* global css end */
+
+/* header section css begin */
+
+/* header section css end */
+
+/* responsive css begin */
+
+/* responsive css end */
