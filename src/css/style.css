@@ -18,3 +18,9 @@ a {
 }
 
 /* reset css end */
+
+/* global css start */
+section {
+  padding: 70px 0;
+}
+/* global css end */
