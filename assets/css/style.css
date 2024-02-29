@@ -163,3 +163,13 @@ img {
 }
 
 /* Skills */
+.skill-icon {
+  width: 60px;
+  height: 60px;
+  background-color: var(--c-brand);
+  color: white;
+  font-size: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
