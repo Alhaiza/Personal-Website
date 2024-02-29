@@ -1,0 +1,55 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+/* Varibales */
+:root {
+  --c-brand: #387adf;
+  --c-dark: #303050;
+  --c-body: #636383;
+  --f-main: "Bai Jamjuree", sans-serif;
+  --transition: all 0.6s cubic-bezier(0.165 0.84 0.44 0.1);
+  --shadow: 0px 15px 40px rgba(0, 0, 0, 0, 1);
+}
+
+/* Reset and Helpers */
+body {
+  font-family: var(--f-main);
+  color: var(--c-body);
+  line-height: 1.7;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-weight: 700;
+  color: var(--c-dark);
+}
+
+a {
+  text-decoration: none;
+  color: var(--c-dark);
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--c-brand);
+}
+
+img {
+  width: 100%;
+}
+
+.section-padding {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
