@@ -3,7 +3,7 @@
 
 /* Varibales */
 :root {
-  --c-brand: #387adf;
+  --c-brand: #8bbccc;
   --c-dark: #303050;
   --c-body: #636383;
   --f-main: "Bai Jamjuree", sans-serif;
@@ -53,10 +53,20 @@ img {
   padding-bottom: 120px;
 }
 
+.text-brand {
+  color: var(--c-brand);
+}
+
 /* Navbar */
 .navbar {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.navbar.scrolled {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
 }
 
 @media (min-width: 992px) {
@@ -95,4 +105,32 @@ img {
 
 .social-icon:hover {
   background-color: transparent;
+}
+
+/* Button */
+.btn {
+  padding: 10px 24px;
+  border-radius: 0;
+  border-width: 2px;
+  font-weight: 500;
+}
+
+.btn-brand,
+.btn-brand:focus {
+  background-color: var(--c-brand);
+  color: white;
+  border-color: var(--c-brand);
+}
+
+.btn-brand:hover {
+  background-color: transparent;
+  color: var(--c-brand);
+  border-color: var(--c-brand);
+}
+
+/* Home */
+#home {
+  background-image: url(../images/hero-section-cover.jpg);
+  background-position: center;
+  background-size: cover;
 }
