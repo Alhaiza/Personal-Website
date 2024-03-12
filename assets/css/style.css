@@ -173,6 +173,22 @@ img {
   background-size: cover;
 }
 
+@media (max-width: 650px) {
+  #home {
+    background-position: 60%;
+  }
+  .blend-color {
+    color: white;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+  }
+
+  .text-brand.blend-color {
+    color: var(--c-brand);
+    -webkit-text-stroke-color: black;
+  }
+}
+
 /* Skills */
 .skill-icon {
   width: 60px;
