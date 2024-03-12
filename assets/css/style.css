@@ -98,6 +98,14 @@ img {
   box-shadow: var(--shadow);
 }
 
+.navbar-toggler {
+  border-radius: 0;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 16px;
@@ -259,4 +267,35 @@ img {
 
 #contact input.form-control {
   height: 44px;
+}
+
+/* Footer */
+footer {
+  background-color: var(--c-dark);
+  padding-top: 80px;
+}
+
+footer h4 {
+  color: white;
+}
+
+footer p,
+footer li,
+footer li a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-top {
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-bottom {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
