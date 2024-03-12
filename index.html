@@ -3,13 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- bootstrap cdn css -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-    />
-    <!-- style css -->
-    <link rel="stylesheet" href="assets/css/style.css" />
     <!-- remix icon cdn css -->
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
@@ -18,11 +11,25 @@
     <!-- bootstrap icon css -->
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
-    <title>Alhaiza - Full Stack Developer (Test Commit)</title>
+    <!-- fontawesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- AOS Library CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- bootstrap cdn css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <!-- style css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Alhaiza - Full Stack Developer</title>
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#navbar">
     <!-- Navbar -->
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
       <div class="container">
@@ -47,16 +54,16 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#skill">Skills</a>
+              <a class="nav-link" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#work">Work</a>
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#works">Works</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#resume">Resume</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#blog">Blog</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
@@ -64,15 +71,27 @@
           </ul>
           <ul class="navbar-nav mb-2 mb-lg-0 flex-row">
             <li class="nav-item">
-              <a class="social-icon" href="#"><i class="ri-github-line"></i></a>
+              <a
+                class="social-icon"
+                href="https://github.com/Alhaiza"
+                target="_blank"
+                ><i class="ri-github-line"></i
+              ></a>
             </li>
+
             <li class="nav-item">
-              <a class="social-icon" href="#"
+              <a
+                class="social-icon"
+                href="https://www.linkedin.com/in/alhaiza/"
+                target="_blank"
                 ><i class="ri-linkedin-box-line"></i
               ></a>
             </li>
             <li class="nav-item">
-              <a class="social-icon" href="#"
+              <a
+                class="social-icon"
+                href="https://www.instagram.com/alhaiza_/"
+                target="_blank"
                 ><i class="ri-instagram-line"></i
               ></a>
             </li>
@@ -86,24 +105,32 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <h1 class="display-4 fw-bold">
+            <h1 class="display-4 fw-bold" data-aos="fade-up">
               Howdy partner! I am
               <span class="text-brand">Syarif Muhammad Alhaiza.</span>
             </h1>
-            <h4 class="mt-3 mb-5">Full stack developer based in Indonesia</h4>
-            <a href="" class="btn btn-brand">Get Connected</a>
+            <h4 class="mt-3 mb-5" data-aos="fade-up" data-aos-delay="100">
+              Full stack developer based in Indonesia
+            </h4>
+            <div data-aos="fade-up" data-aos-delay="200">
+              <a href="" class="btn btn-brand">Get Connected</a>
+            </div>
           </div>
           <div class="col-md-6"></div>
         </div>
       </div>
     </section>
 
-    <!-- Work -->
-    <section id="#about" class="section-padding section-connector">
+    <!-- About -->
+    <section id="about" class="section-padding section-connector">
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <div class="section-title text-center">
+            <div
+              class="section-title text-center"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
               <h1>About</h1>
               <p>
                 I am a Informatics Student at Tanjungpura University,
@@ -118,11 +145,101 @@
       </div>
     </section>
 
-    <!-- Skills -->
-    <section id="#skills" class="section-padding section-connector">
+    <!-- Services -->
+    <section id="services" class="section-padding section-connector">
       <div class="container">
         <div class="row">
-          <div class="col-12">
+          <div class="col-12" data-aos="fade-up" data-aos-delay="100">
+            <div class="section-title text-center">
+              <h1>Services</h1>
+              <p>
+                As a Full Stack Web Developer, I'm here to make your website
+                awesome! Whether you want it to look great, run smoothly, or do
+                both, I've got your back. I'll handle all the technical stuff
+                and make sure it works perfectly on any device. My aim is to
+                make your online projects a breeze and bring a smile to your
+                face!
+              </p>
+              <div class="line"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div
+            class="col-lg-3 col-sm-6 my-3"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="service py-5 px-4 border rounded h-100">
+              <div class="service-icon">
+                <i class="fa-solid fa-laptop-code"></i>
+              </div>
+              <h5 class="mt-4">Web Development</h5>
+              <p>
+                Create websites from scratch using HTML, CSS, and JavaScript,
+                making sure they look great and work smoothly.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-sm-6 my-3"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="service py-5 px-4 border rounded h-100">
+              <div class="service-icon">
+                <i class="fa-solid fa-newspaper"></i>
+              </div>
+              <h5 class="mt-4">Frontend Development</h5>
+              <p>
+                Design and build the parts of websites that users interact with,
+                like buttons, forms, and animations, to make sure they are
+                intuitive and engaging.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-sm-6 my-3"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div class="service py-5 px-4 border rounded h-100">
+              <div class="service-icon">
+                <i class="ri-server-line"></i>
+              </div>
+              <h5 class="mt-4">Backend Development</h5>
+              <p>
+                Build the behind-the-scenes technology that powers websites,
+                ensuring they can handle user interactions, store data securely,
+                and perform well.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-sm-6 my-3"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
+            <div class="service py-5 px-4 border rounded h-100">
+              <div class="service-icon">
+                <i class="ri-database-2-line"></i>
+              </div>
+              <h5 class="mt-4">Database Design and Management</h5>
+              <p>
+                Organize and manage the data that websites use, making sure it's
+                stored efficiently and can be accessed quickly when needed.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section-padding section-connector">
+      <div class="container">
+        <div class="row">
+          <div class="col-12" data-aos="fade-up" data-aos-delay="100">
             <div class="section-title text-center">
               <h1>Skills</h1>
               <div class="line"></div>
@@ -130,7 +247,11 @@
           </div>
         </div>
         <div class="row text-center">
-          <div class="col-lg-4 col-sm-6">
+          <div
+            class="col-lg-3 col-md-4 col-sm-6"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
             <div class="skill py-3 px-2">
               <div class="skill-icon">
                 <i class="ri-html5-line"></i>
@@ -138,7 +259,11 @@
               <h5 class="mt-4">HTML</h5>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6">
+          <div
+            class="col-lg-3 col-md-4 col-sm-6"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
             <div class="skill py-3 px-2">
               <div class="skill-icon">
                 <i class="ri-css3-line"></i>
@@ -146,7 +271,11 @@
               <h5 class="mt-4">CSS</h5>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6">
+          <div
+            class="col-lg-3 col-md-4 col-sm-6"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
             <div class="skill py-3 px-2">
               <div class="skill-icon">
                 <i class="ri-javascript-line"></i>
@@ -154,15 +283,23 @@
               <h5 class="mt-4">Javascript</h5>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6">
+          <div
+            class="col-lg-3 col-md-4 col-sm-6"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
             <div class="skill py-3 px-2">
               <div class="skill-icon">
-                <i class="bi bi-filetype-php"></i>
+                <i class="fa-brands fa-php"></i>
               </div>
               <h5 class="mt-4">PHP</h5>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6">
+          <div
+            class="col-lg-3 col-md-4 col-sm-6"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
             <div class="skill py-3 px-2">
               <div class="skill-icon">
                 <i class="ri-bootstrap-line"></i>
@@ -170,7 +307,11 @@
               <h5 class="mt-4">Bootstrap</h5>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6">
+          <div
+            class="col-lg-3 col-md-4 col-sm-6"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
             <div class="skill py-3 px-2">
               <div class="skill-icon">
                 <i class="ri-tailwind-css-line"></i>
@@ -178,7 +319,11 @@
               <h5 class="mt-4">Tailwind CSS</h5>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6">
+          <div
+            class="col-lg-3 col-md-4 col-sm-6"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
             <div class="skill py-3 px-2">
               <div class="skill-icon">
                 <i class="ri-nodejs-line"></i>
@@ -186,7 +331,11 @@
               <h5 class="mt-4">Node JS</h5>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6">
+          <div
+            class="col-lg-3 col-md-4 col-sm-6"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
             <div class="skill py-3 px-2">
               <div class="skill-icon">
                 <i class="ri-reactjs-line"></i>
@@ -194,7 +343,11 @@
               <h5 class="mt-4">React JS</h5>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6">
+          <div
+            class="col-lg-3 col-md-4 col-sm-6"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
             <div class="skill py-3 px-2">
               <div class="skill-icon">
                 <i class="ri-vuejs-line"></i>
@@ -202,12 +355,309 @@
               <h5 class="mt-4">Vue JS</h5>
             </div>
           </div>
+          <div
+            class="col-lg-3 col-md-4 col-sm-6"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="skill py-3 px-2">
+              <div class="skill-icon">
+                <i class="fa-brands fa-laravel"></i>
+              </div>
+              <h5 class="mt-4">Laravel</h5>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-4 col-sm-6"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="skill py-3 px-2">
+              <div class="skill-icon">
+                <i class="fa-brands fa-git"></i>
+              </div>
+              <h5 class="mt-4">GIT</h5>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-4 col-sm-6"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div class="skill py-3 px-2">
+              <div class="skill-icon">
+                <i class="fa-solid fa-database"></i>
+              </div>
+              <h5 class="mt-4">Database</h5>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
+    <!-- Works -->
+    <section id="works" class="section-padding section-connector">
+      <div class="container">
+        <div class="row">
+          <div class="col-12" data-aos="fade-up" data-aos-delay="100">
+            <div class="section-title text-center">
+              <h1>Works</h1>
+              <p>
+                I've worked on a variety of projects as a full stack web
+                developer, enhancing my skills in building strong web
+                applications. Here's a quick look at my journey
+              </p>
+              <div class="line"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row g-2">
+          <div
+            class="col-lg-4 col-sm-6"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="project">
+              <img src="assets/images/work-section-works-1.jpg" alt="" />
+              <div class="content flex-column">
+                <h5 class="text-light">Inventory App With QR Code</h5>
+                <a href="#" class="btn btn-outline-light">View Project</a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-sm-6"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="project">
+              <img src="assets/images/work-section-works-2.jpg" alt="" />
+              <div class="content flex-column">
+                <h5 class="text-light">Personal Website</h5>
+                <a href="#" class="btn btn-outline-light">View Project</a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-sm-6"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div class="project flex-column">
+              <img src="assets/images/work-section-works-3.jpg" alt="" />
+              <div class="content flex-column">
+                <h5 class="text-light">Skilvul Bootcamp Final Project</h5>
+                <a href="#" class="btn btn-outline-light">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume -->
+    <section id="resume" class="section-padding section-connector">
+      <div class="container">
+        <div class="row">
+          <div class="col-12" data-aos="fade-up" data-aos-delay="100">
+            <div class="section-title text-center">
+              <h1>Education & Experience</h1>
+              <p>
+                My journey in web development has been enriched by both formal
+                education and hands-on experience. Here's a snapshot of my
+                educational background and professional journey:
+              </p>
+              <div class="line"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row gy-5" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-12">
+                <div class="education-experience p-5 pt-0 pb-0">
+                  <h5>Tanjungpura University, Computer Science</h5>
+                  <small class="text-brand">2020 - 2024</small>
+                  <p class="mb-0">Pontianak, West Kalimantan, Indonesia</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-12">
+                <div class="education-experience p-5 pt-0">
+                  <h5>Web Developer Internship</h5>
+                  <small class="text-brand"
+                    >September 2023 - November 2023</small
+                  >
+                  <p class="mb-0">
+                    Informatics Department of Tanjungpura University, Pontianak
+                  </p>
+                </div>
+                <div class="education-experience p-5 pt-0 pb-0">
+                  <h5>Full-stack Web Developer Intern</h5>
+                  <small class="text-brand">February 2024 - Present</small>
+                  <p class="mb-0">Carbon Addons</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section-connector">
+      <div class="container section-padding">
+        <div class="row">
+          <div class="col-12">
+            <div
+              class="section-title text-center"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <h1>Contact</h1>
+              <p>Feel free to reach out to me through the following channels</p>
+              <div class="line"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-8" data-aos="fade-up" data-aos-delay="200">
+            <form action="" class="row g-3">
+              <div class="font-group col-md-4">
+                <input type="text" class="form-control" placeholder="Name" />
+              </div>
+              <div class="font-group col-md-4">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Phone Number"
+                />
+              </div>
+              <div class="font-group col-md-4">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Email Adress"
+                />
+              </div>
+              <div class="font-group col-md-12">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter Subject"
+                />
+              </div>
+              <div class="font-group col-md-12">
+                <textarea
+                  name=""
+                  rows="4"
+                  class="form-control"
+                  placeholder="Enter Your Messages"
+                ></textarea>
+              </div>
+              <div class="font-group text-center col-md-12">
+                <button class="btn btn-brand">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="footer-top">
+          <div class="container">
+            <div class="row gy-5">
+              <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                <h4><a href="" class="text-white">Alhaiza.</a></h4>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Corporis quae doloribus labore a dolore? Repellendus!
+                </p>
+                <ul class="navbar-nav mb-2 mb-lg-0 flex-row">
+                  <li class="nav-item">
+                    <a
+                      class="social-icon"
+                      href="https://github.com/Alhaiza"
+                      target="_blank"
+                      ><i class="ri-github-line"></i
+                    ></a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a
+                      class="social-icon"
+                      href="https://www.linkedin.com/in/alhaiza/"
+                      target="_blank"
+                      ><i class="ri-linkedin-box-line"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="social-icon"
+                      href="https://www.instagram.com/alhaiza_/"
+                      target="_blank"
+                      ><i class="ri-instagram-line"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="col-md-3 ms-auto"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <h4>Quick Links</h4>
+                <ul>
+                  <li>
+                    <a href="#services">Services</a>
+                  </li>
+                  <li>
+                    <a href="#skills">Skills</a>
+                  </li>
+                  <li>
+                    <a href="#works">Works</a>
+                  </li>
+                  <li>
+                    <a href="#resume">Resume</a>
+                  </li>
+                  <li>
+                    <a href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
+                <h4>Contact</h4>
+                <ul>
+                  <li>Email : alqadrihaiza@gmail.com</li>
+                  <li>Adress : Pontianak, West Kalimantan, Indonesia</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row justify-content-between">
+              <div class="col-auto">
+                <div class="mb-0">Copyright text goes here</div>
+              </div>
+              <div class="col-auto">
+                <div class="mb-0">Design by Me</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+
     <!-- bootstrap cdn js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS Library JS  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
     <!-- app js -->
     <script src="assets/js/app.js"></script>
   </body>

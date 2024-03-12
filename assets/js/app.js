@@ -5,3 +5,7 @@ window.onscroll = function () {
     document.getElementById("navbar").classList.remove("scrolled");
   }
 };
+
+AOS.init({
+  duration: 800,
+});
